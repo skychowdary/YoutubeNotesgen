@@ -2,6 +2,7 @@
 
 An AI-powered tool that generates detailed notes from YouTube video transcripts.
 
+
 ## 🌟Features
 
 - **Transcript Extraction**: Grabs transcripts directly from YouTube videos.
@@ -10,28 +11,31 @@ An AI-powered tool that generates detailed notes from YouTube video transcripts.
 - **Simple URL Input**: Just paste the link of the YouTube video.
 - **Downloadable Notes**: Offers the capability to save notes as a Word document.
 
+
 ## Visualize your experience with YouTube NotesGen:
 
 ![Main Interface](http://res.cloudinary.com/dwmwpmrpo/image/upload/v1711454012/n0m66k6e8tdhw4unovtw.png)
 *"A simple and sleek interface to start generating notes."*
 
+
 ## 💽Installation Instructions
 
 Follow these steps to get the app up and running smoothly:
 
-## Step 1: Clone the Repository
+
+### Step 1: Clone the Repository
 ```
 git clone https://github.com/skychowdary/YoutubeNotesgen.git
 ```
-## Step 2: Navigate to the Project Directory
+### Step 2: Navigate to the Project Directory
 ```
 cd YoutubeNotesgen
 ```
-# Step 3: Install Dependencies
+### Step 3: Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-## Step 4: Run the App with Streamlit
+### Step 4: Run the App with Streamlit
 ```
 streamlit run app.py
 ```
@@ -44,10 +48,12 @@ streamlit run app.py
 4. Review the detailed notes that appear on the screen.
 5. Download the notes in Word format if you wish.
 
+
 ## 👐Contributing
 
 - **Issues**: Open an issue for any bugs or feature suggestions.
 - **Pull Requests**: Submit PRs for code contributions.
+
 
 ## ❓ FAQ
 
@@ -56,6 +62,7 @@ streamlit run app.py
 
 **Q**: Can I contribute to the project?
 **A**: Absolutely! Check out the 'Contributing' section for how to get involved. 👍
+
 
 ## 🆘 Need Help?
 
