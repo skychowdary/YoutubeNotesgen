@@ -1,5 +1,4 @@
 streamlit==1.8.0
-os
 re
 youtube-transcript-api
 python-docx
