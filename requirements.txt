@@ -1,5 +1,5 @@
-streamlit==1.8.0
-youtube-transcript-api
-python-docx
-g4f
-python-dotenv
+streamlit==1.10.0  
+python-dotenv==0.19.2  
+google-generativeai
+youtube-transcript-api==0.4.1 
+python-docx==0.8.11  
