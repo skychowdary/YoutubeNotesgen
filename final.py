@@ -108,14 +108,14 @@ if submitted:
     with st.spinner('Please wait...'):
         transcript_text = extract_transcript_details(youtube_link)
         if transcript_text:
-            notes = generate_g4f_notes(transcript_text, prompt)  # Changed from 'summary' to 'notes'
+            notes = generate_g4f_notes(transcript_text, prompt) 
             if notes:
-                st.markdown("## Detailed Notes:")  # Changed from 'Summary' to 'Notes'
+                st.markdown("## Detailed Notes:") 
                 st.write(notes)
 
                 # Create a Word document
                 doc = Document()
-                doc.add_heading('Video Notes', 0)  # Changed from 'Summary' to 'Notes'
+                doc.add_heading('Video Notes', 0)  
                 doc.add_paragraph(notes)
 
                 # Save the document to a BytesIO object
@@ -127,13 +127,13 @@ if submitted:
                 btn = st.download_button(
                     label="Download Word",
                     data=buf,
-                    file_name="video_notes.docx"  # Changed from 'summary' to 'notes'
+                    file_name="video_notes.docx" 
                 )
 
             else:
-                st.error("Failed to generate the notes.")  # Changed from 'summary' to 'notes'
+                st.error("Failed to generate the notes.") 
         else:
-            st.error("Could not fetch the transcript or generate notes.")  # Changed from 'summary' to 'notes'
+            st.error("Could not fetch the transcript or generate notes.")  
 
 # Hide unnecessary elements
 st.markdown("""
