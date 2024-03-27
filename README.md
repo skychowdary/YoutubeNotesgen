@@ -1,12 +1,12 @@
 # YouTube NotesGen
 
-An AI-powered tool that generates detailed notes from YouTube video transcripts.
+An AI-powered tool that generates detailed notes from YouTube video link.
 
 
 ## 🌟Features
 
 - **Transcript Extraction**: Grabs transcripts directly from YouTube videos.
-- **AI-Powered Notes**: Utilizes GPT-4 Free to convert transcripts into comprehensive notes.
+- **AI-Powered Notes**: Utilizes Gemini pro to convert transcripts into comprehensive notes.
 - **Streamlit Interface**: Provides an intuitive and interactive user interface.
 - **Simple URL Input**: Just paste the link of the YouTube video.
 - **Downloadable Notes**: Offers the capability to save notes as a Word document.
@@ -14,7 +14,7 @@ An AI-powered tool that generates detailed notes from YouTube video transcripts.
 
 ## Visualize your experience with YouTube NotesGen:
 
-![Main Interface](http://res.cloudinary.com/dwmwpmrpo/image/upload/v1711454012/n0m66k6e8tdhw4unovtw.png)
+![Main Interface](https://youtu.be/PGGBFlmO_dU)
 *"A simple and sleek interface to start generating notes."*
 
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 ### Step 4: Run the App with Streamlit
 ```
-streamlit run app.py
+streamlit run final.py
 ```
 
 ## 🚀 Usage Guide
@@ -58,7 +58,7 @@ streamlit run app.py
 ## ❓ FAQ
 
 **Q**: How accurate are the generated notes?
-**A**: Leveraging GPT-4's powerful AI, we ensure high accuracy in note-taking, capturing the essence of the video transcripts. ✔️
+**A**: Leveraging gemini pro's powerful AI, we ensure high accuracy in note-taking, capturing the essence of the video transcripts. ✔️
 
 **Q**: Can I contribute to the project?
 **A**: Absolutely! Check out the 'Contributing' section for how to get involved. 👍
@@ -66,14 +66,14 @@ streamlit run app.py
 
 ## 🆘 Need Help?
 
-Reach out to us at `[ysaikiran024@gmail.com]` with any queries or feedback. We're here to help! 💬
+Reach out to us at `ysaikiran024@gmail.com` with any queries or feedback. We're here to help! 💬
 
 
 ## 🙌Acknowledgements
 
 - A big shout-out to **Streamlit** for the amazing web app framework.
-- Kudos to **GPT-4 Free** for powering our AI note-taking capabilities.
+- Kudos to **Gemini pro** for powering our AI note-taking capabilities.
 
 <Citation title="Streamlit" href="https://streamlit.io/" />
-<Citation title="GPT-4 Free" href="https://github.com/xtekky/gpt4free" />
+<Citation title="Gemini pro API" href="https://aistudio.google.com/" />
 
