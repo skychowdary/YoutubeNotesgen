@@ -12,9 +12,9 @@ An AI-powered tool that generates detailed notes from YouTube video link.
 - **Downloadable Notes**: Offers the capability to save notes as a Word document.
 
 
-## Visualize your experience with YouTube NotesGen:
+## Visualize your experience with YouTube NotesGen
 
-![Main Interface](https://youtu.be/PGGBFlmO_dU)
+[![Main Interface](http://img.youtube.com/vi/PGGBFlmO_dU/0.jpg)](https://youtu.be/PGGBFlmO_dU)
 *"A simple and sleek interface to start generating notes."*
 
 
